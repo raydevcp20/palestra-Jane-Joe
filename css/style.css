@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+section li{
+    list-style: circle;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/janejoe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    color: #fff;
+}
+.container{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    /* justify-content: center;
+    align-items: center; */
+}
+.title{
+    margin: 100px 15vw;
+}
+.s-price{
+    height: auto;
+}
